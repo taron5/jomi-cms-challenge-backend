@@ -21,8 +21,8 @@
 
 ## Running the Nextjs server
 
-1. clone front-end repo
-2. yarn install
+1. `git clone https://github.com/jomijournal/jomi-challenge-frontend.git`
+2. `yarn install`
 3. Copy environment variables to .env file = `cp env.example .env`
 4. Start the nextjs server using `yarn dev`
 5. Note that it will produce errors until you take care of the //TODO comments
@@ -40,3 +40,14 @@
 1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql` query under `graphl/queries/cms`. Run `yarn gen` to update the genrated file.
 2. Complete components for `TwoColumnBlock` and `HeaderBlock` so that the front-end can properly render them. If you can also complete `CarouselBlock`, that would be much better. You may use `HomePageSectionsComponent` to select the components based on their typename, but its not necessary.
 3. After completing the the components create a pull-request of your fork, to the main repo and send us a message upon completion.
+
+## Mockup of the final output
+## Header Block
+![image](https://user-images.githubusercontent.com/10172560/164224358-9de2789a-0c3e-4a5d-aa56-68129194e104.png)
+
+### Two Column Block
+![image](https://user-images.githubusercontent.com/10172560/164224267-b39ebb80-e0c6-42cd-8e39-6d296ca52e07.png)
+![image](https://user-images.githubusercontent.com/10172560/164224300-ff257823-b477-4a78-ace3-acf8fcee6276.png)
+
+### Carousel Block
+![image](https://user-images.githubusercontent.com/10172560/164224408-ef0703ef-d774-4ed2-8b56-4225614c455f.png)

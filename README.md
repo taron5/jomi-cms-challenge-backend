@@ -30,14 +30,16 @@
 
 ### Backend
 
-1. Creating content for front-e the CMS server has pre-defined types and component: `HomePage`. Your first task is to build the content for the homepage so that the frontend can consume it and will be able to render the content on the front-end. It should consist of the following:
+1. Creating content for front-end. the CMS server has pre-defined types and components: `HomePage`, etc. Your first task is to build the content for the homepage so that the frontend can consume it and will be able to render the content. It should consist of the following:
 
-- 2 Two-Column Blocks and 1 Header.
+- 2 Two-Column Blocks
+- 1 Header.
+- Carousel (Optional)
 
 ### Front-end
 
-1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql` query under `graphl/queries/cms`. Run `yarn gen` to update the genrated file.
-2. Complete components for `TwoColumnBlock` and `HeaderBlock` so that the front-end can properly render them. If you can also complete `CarouselBlock`, that would be much better. You may use `HomePageSectionsComponent` to select the components based on their typename, but its not necessary.
+1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql`. Run `yarn gen` to update the generated file (`homepage.generated.tsx`).
+2. Complete components for `TwoColumnBlock` and `HeaderBlock` so that the front-end can properly render them. If you can also complete `CarouselBlock`, that would be much better, but its not necessary. You may use `HomePageSectionsComponent` to select the components based on their typename.
 3. After completing the the components create a pull-request of your fork, to the this repo (https://github.com/jomijournal/jomi-cms-challenge-backend) and send us a message upon completion.
 
 ## Mockup of the final output

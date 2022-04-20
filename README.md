@@ -40,8 +40,9 @@
 
 1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql`. Run `yarn gen` to update the generated file (`homepage.generated.tsx`).
 2. Complete components for `TwoColumnBlock` , `HeaderBlock`, `CarouselBlock` so that the front-end can properly render them. . You may use `HomePageSectionsComponent` to select the components based on their typename.
-3. After completing the the components create a pull-request of your fork, to the this repo (https://github.com/jomijournal/jomi-cms-challenge-backend) and send us a message upon completion.
-Note: Just search for all the //TODO comments and complete them.
+3. Note: Just search for all the //TODO comments and complete them.
+4. After completing the the components create a pull-request of your fork, to the this repo (https://github.com/jomijournal/jomi-cms-challenge-backend) and send us a message upon completion.
+
 
 ## Mockup of the final output
 ### Header Block

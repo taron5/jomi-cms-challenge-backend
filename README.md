@@ -1,57 +1,42 @@
-# 🚀 Getting started with Strapi
+# 🚀 Welcome to JOMI Code Challenge
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+## Instructions
 
-### `develop`
+1. Fork this repo and the frontend repo
+2. Run the this cms server
+3. Implement the items on Tasks section
+4. Submit a pull-request to both frontend and backend
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+## Deadline
 
-```
-npm run develop
-# or
-yarn develop
-```
+24-48 hours.
 
-### `start`
+## Running the backend cms server
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+1. clone repo
+2. `yarn install`
+3. Copy environment variables to .env file = `cp env.example .env`
+4. Start the server `yarn develop`
+5. Go to `http://localhost:1337`, create an admin user and Proceed to tasks
 
-```
-npm run start
-# or
-yarn start
-```
+## Running the Nextjs server
 
-### `build`
+1. clone front-end repo
+2. yarn install
+3. Copy environment variables to .env file = `cp env.example .env`
+4. Start the nextjs server using `yarn dev`
+5. Note that it will produce errors until you take care of the //TODO comments
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+## Tasks
 
-```
-npm run build
-# or
-yarn build
-```
+### Backend
 
-## ⚙️ Deployment
+1. Creating content for front-e the CMS server has pre-defined types and component: `HomePage`. Your first task is to build the content for the homepage so that the frontend can consume it and will be able to render the content on the front-end. It should consist of the following:
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+- 2 Two-Column Blocks and 1 Header.
 
-## 📚 Learn more
+### Front-end
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql` query under `graphl/queries/cms`. Run `yarn gen` to update the genrated file.
+2. Complete components for `TwoColumnBlock` and `HeaderBlock` so that the front-end can properly render them. If you can also complete `CarouselBlock`, that would be much better. You may use `HomePageSectionsComponent` to select the components based on their typename, but its not necessary.
+3. After completing the the components create a pull-request of your fork, to the main repo and send us a message upon completion.

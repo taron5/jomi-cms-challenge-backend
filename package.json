@@ -7,6 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "postbuild": "copy_artifacts && pm2 restart strapi",
     "strapi": "strapi"
   },
   "devDependencies": {},

@@ -8,7 +8,7 @@
 4. Submit a pull-request to both frontend and backend
 
 ## Deadline
-24 hours
+6 hours
 
 ## Running the backend cms server
 

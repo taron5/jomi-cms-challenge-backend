@@ -27,4 +27,4 @@ jobs:
       - run: yarn build --no-optimization
       - run: cp -r /srv/apps/actions-runner/_work/expensebook-strapi-cms/expensebook-strapi-cms/ /srv/apps/expensebook-strapi-cms/
       - run: cd /srv/apps/expensebook-strapi-cms
-      - run: PM2_HOME="/srv/apps/expensebook-strapi-cms" pm2 list
+      - run: pm2 restart ecosystem.config.js

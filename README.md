@@ -24,7 +24,7 @@
 2. `yarn install`
 3. Copy environment variables to .env file = `cp env.example .env`
 4. Start the nextjs server using `yarn dev`
-5. Note that it will produce errors until you take care of the //TODO comments
+5. Go to http://localhost:3000
 
 ## Tasks
 

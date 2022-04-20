@@ -25,3 +25,5 @@ jobs:
           cache: "npm"
       - run: yarn install
       - run: yarn build --no-optimization
+      - run: shopt -s shopt -s expand_aliases
+      - run: copy_artifacts

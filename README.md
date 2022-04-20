@@ -41,7 +41,7 @@
 3. After completing the the components create a pull-request of your fork, to the main repo and send us a message upon completion.
 
 ## Mockup of the final output
-## Header Block
+### Header Block
 ![image](https://user-images.githubusercontent.com/10172560/164224358-9de2789a-0c3e-4a5d-aa56-68129194e104.png)
 
 ### Two Column Block

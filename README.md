@@ -38,7 +38,7 @@
 
 1. In the front-end server, Fill-in the needed fields in the query on `homepage.graphql` query under `graphl/queries/cms`. Run `yarn gen` to update the genrated file.
 2. Complete components for `TwoColumnBlock` and `HeaderBlock` so that the front-end can properly render them. If you can also complete `CarouselBlock`, that would be much better. You may use `HomePageSectionsComponent` to select the components based on their typename, but its not necessary.
-3. After completing the the components create a pull-request of your fork, to the main repo and send us a message upon completion.
+3. After completing the the components create a pull-request of your fork, to the this repo (https://github.com/jomijournal/jomi-cms-challenge-backend) and send us a message upon completion.
 
 ## Mockup of the final output
 ### Header Block
